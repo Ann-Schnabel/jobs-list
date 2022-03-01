@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { AddEdit, JobsList } from "./pages";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>

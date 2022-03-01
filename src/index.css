@@ -1,0 +1,57 @@
+:root {
+  --primary800: #085ff7;
+  --gray1000: #2d2d2d;
+  --gray600: #949494;
+  --gray10: #faf9f8;
+  --white: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--gray1000);
+}
+
+p {
+  margin: 0;
+}
+
+.helv {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.sm {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.reg {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.lg {
+  font-size: 1.75rem;
+}
+
+.light {
+  color: var(--gray10);
+}
+
+.gray {
+  color: var(--gray600);
+}
